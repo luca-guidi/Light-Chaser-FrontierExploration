@@ -2,7 +2,7 @@
 
 To run the project, three separate terminals are needed. For each of them, run the following commands: 
 
-##### Terminal 1: 
+#### Terminal 1: 
 This command must be run so that ROS nodes can communicate.
 
 ```
@@ -10,7 +10,7 @@ roscore
 ```
 
 
-##### Terminal 2:
+#### Terminal 2:
 
 First SSH into the Raspberry Pi on the TurtleBot3 Burger. 
 ```
@@ -22,7 +22,7 @@ $ roslaunch turtlebot3_bringup turtlebot3_robot.launch
 ```
 
 
-##### Terminal 3:
+#### Terminal 3:
 ```
 roslaunch light_chaser light_chaser.launch
 ```
