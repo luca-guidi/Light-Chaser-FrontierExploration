@@ -38,6 +38,7 @@ The package uses Lidar to get information about the environment. A modified vers
 ![Frontiers and SLAM](/assets/img1.png)
 
 The image above shows different points of navigation taking place. Red marks are the frontiers that act as anchor points for navigation. The green line is Lidar's current vision. Black lines are the environment borders. You can also see the tiny TurtleBot moving around.
+
 ---
 
 Part of the getfrontier() function was adapted from 
